@@ -1,0 +1,18 @@
+2019-07-29 22:13:26.132 ERROR 9292 --- [main] o.s.b.c.l.LoggingApplicationListener     : Cannot set level '' for 'com.zuo.cache.cachedemo.mapper'
+2019-07-29 22:13:26.377  INFO 9292 --- [main] c.z.c.c.CachedemoApplicationTests        : Starting CachedemoApplicationTests on TYSRR78J31H64VU with PID 9292 (started by Administrator in D:\重要文件\ideaWorkspace\mainWorkspace\cachedemo)
+2019-07-29 22:13:26.378  INFO 9292 --- [main] c.z.c.c.CachedemoApplicationTests        : No active profile set, falling back to default profiles: default
+2019-07-29 22:13:29.651  INFO 9292 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-29 22:13:30.494  INFO 9292 --- [main] c.z.c.c.CachedemoApplicationTests        : Started CachedemoApplicationTests in 5.129 seconds (JVM running for 6.433)
+2019-07-29 22:13:30.831  INFO 9292 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-07-29 22:13:31.064  INFO 9292 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-29 22:13:31.077  INFO 9292 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-07-29 22:14:25.601  INFO 9316 --- [main] c.z.c.c.CachedemoApplicationTests        : Starting CachedemoApplicationTests on TYSRR78J31H64VU with PID 9316 (started by Administrator in D:\重要文件\ideaWorkspace\mainWorkspace\cachedemo)
+2019-07-29 22:14:25.603  INFO 9316 --- [main] c.z.c.c.CachedemoApplicationTests        : No active profile set, falling back to default profiles: default
+2019-07-29 22:14:28.499  INFO 9316 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-29 22:14:29.332  INFO 9316 --- [main] c.z.c.c.CachedemoApplicationTests        : Started CachedemoApplicationTests in 4.545 seconds (JVM running for 5.953)
+2019-07-29 22:14:29.630  INFO 9316 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-07-29 22:14:29.794 DEBUG 9316 --- [main] c.z.c.c.mapper.UserMapper.getUserByName  : ==>  Preparing: SELECT * FROM t_user WHERE name = ? 
+2019-07-29 22:14:29.824 DEBUG 9316 --- [main] c.z.c.c.mapper.UserMapper.getUserByName  : ==> Parameters: 左左(String)
+2019-07-29 22:14:29.867 DEBUG 9316 --- [main] c.z.c.c.mapper.UserMapper.getUserByName  : <==      Total: 1
+2019-07-29 22:14:29.881  INFO 9316 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-29 22:14:29.892  INFO 9316 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
